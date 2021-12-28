@@ -157,3 +157,9 @@ footer {
 .call-to-action-section .sign-up-button {
   border: 3px solid var(--primary-color);
 }
+
+footer {
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 30px;
+}
