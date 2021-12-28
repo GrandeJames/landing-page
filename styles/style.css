@@ -13,6 +13,9 @@
 body {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -47,6 +50,7 @@ h1 {
 
 .hero-section {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 100px 15%;
   gap: 36px;
@@ -70,10 +74,15 @@ header,
 .hero-section,
 footer {
   background-color: var(--dark-color);
+  flex: 1;
+}
+
+.left-container,
+.hero-section img {
+  max-width: 400px;
 }
 
 .hero-section img {
-  max-width: 550px;
   height: auto;
 }
 
