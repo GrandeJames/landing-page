@@ -81,3 +81,35 @@ footer {
   font-size: 20px;
   font-weight: 600;
 }
+
+.random-info-section {
+  padding: 50px 20% 100px 20%;
+  text-align: center;
+}
+
+.info,
+.random-info-section img {
+  width: 150px;
+}
+
+.random-info-section img {
+  height: auto;
+  border-radius: 10px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.random-info-title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--dark-color);
+}
+
+.info-text {
+  color: gray;
+}
