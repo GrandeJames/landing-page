@@ -17,12 +17,15 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
   padding: 20px 15%;
 }
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 20px;
 }
@@ -44,6 +47,7 @@ h1 {
 
 .hero-section {
   display: flex;
+  flex-wrap: wrap;
   padding: 100px 15%;
   gap: 36px;
 }
@@ -69,7 +73,7 @@ footer {
 }
 
 .hero-section img {
-  width: 550px;
+  max-width: 550px;
   height: auto;
 }
 
@@ -99,7 +103,8 @@ footer {
 
 .info-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
@@ -142,6 +147,8 @@ footer {
   padding: 50px 100px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .call-to-action-section .title {
