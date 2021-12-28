@@ -1,4 +1,8 @@
-This is a landing page. For now, it isn't responsive for mobile devices.
+This is a landing page.
 
-Photos:
-The sparklers photo is by Ian Schneider from Unsplash
+Photos are from:
+Ian Schneider @goian
+Mohammed Shamaa @photoshamaa
+Eyestetix @eyestetix
+Anastasiia Rozumna @rozumna
+Ivan Stepanov @evil_bumblebee
