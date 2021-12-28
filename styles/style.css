@@ -74,7 +74,7 @@ footer {
 }
 
 .sign-up-button {
-  padding: 8px 30px;
+  padding: 5px 30px;
   background-color: var(--color-blue);
   border-radius: 10px;
   color: var(--primary-color);
@@ -130,4 +130,30 @@ footer {
   font-weight: 700;
   font-size: 25px;
   text-align: end;
+}
+
+.call-to-action-section {
+  padding: 100px 15%;
+}
+
+.call-to-action-section .container {
+  background-color: var(--color-blue);
+  border-radius: 10px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action-section .title {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.call-to-action-section .text {
+  color: var(--secondary-color);
+}
+
+.call-to-action-section .sign-up-button {
+  border: 3px solid var(--primary-color);
 }
