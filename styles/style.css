@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 20px;
 }
 
@@ -112,4 +112,22 @@ footer {
 
 .info-text {
   color: gray;
+}
+
+.inspiring-quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 25%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: var(--dark-color);
+}
+
+.author {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: end;
 }
